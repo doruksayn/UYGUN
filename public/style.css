@@ -10,3 +10,4 @@
 .poke-control.ringing svg{transform-origin:top center;animation:poke-ring .9s ease-in-out}
 @keyframes poke-ring{0%,100%{transform:rotate(0)}12%,36%,60%{transform:rotate(-18deg)}24%,48%,72%{transform:rotate(18deg)}84%{transform:rotate(-8deg)}}
 @media(prefers-reduced-motion:reduce){.poke-control.ringing svg{animation:none}}
+.brand{gap:5px}.mark{display:grid;place-items:center;width:36px;height:36px;flex:none;border-radius:11px;background:#294c3e;color:#dceccf;font-size:inherit;line-height:1;letter-spacing:inherit;padding:0}
